@@ -1679,6 +1679,50 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y() + (org
 		</widget>
 		<widget name="config" position="707,573" size="1128,408" itemHeight="54" zPosition="14" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
+	<screen name="RestoreWizard" position="0,0" size="1920,1080" title="Welcome..." flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="PANEL_GIGABLUE_TOP" />
+		<ePixmap name="" position="1775,1020" size="141,60" pixmap="GigabluePax-FHD/buttons/key_exit.png" alphatest="blend" zPosition="1" />
+		<ePixmap name="" position="1655,1020" size="141,60" pixmap="GigabluePax-FHD/buttons/ok.png" alphatest="blend" zPosition="0" />
+		<ePixmap pixmap="GigabluePax-FHD/buttons/key_red.png" position="1191,1020" size="45,60" alphatest="blend" />
+		<ePixmap name="" position="1197,1020" size="600,60" pixmap="GigabluePax-FHD/construct/general/button-back.png" zPosition="-2" alphatest="blend" />
+		<ePixmap name="" position="1781,1020" size="300,60" pixmap="GigabluePax-FHD/construct/general/button-back-light.png" zPosition="-1" alphatest="blend" />
+		<eLabel text="Restore Wizard" position="554,-1" size="810,69" font="SetrixHD;53" transparent="1" valign="top" zPosition="0" backgroundColor="layer-b-background" />
+		<ePixmap pixmap="GigabluePax-FHD/construct/plugins/wizard.png" position="206,434" size="300,300" alphatest="blend" />
+		<panel name="PANEL_WINDOW_LARGE" />
+		<widget name="languagetext" position="1235,1028" size="405,39" zPosition="1" font="Regular;30" halign="left" backgroundColor="layer-a-background" transparent="1" />
+		<widget name="text" position="707,113" size="1128,450" font="SetrixHD;45" backgroundColor="layer-a-background" transparent="1" />
+		<widget source="list" render="Listbox" position="707,573" size="1128,408" zPosition="13" scrollbarMode="showOnDemand" transparent="1">
+			<convert type="TemplatedMultiContent">
+				{"template": [ MultiContentEntryText(pos = (20,2),size = (760,43),flags = RT_HALIGN_LEFT,text = 0) ],
+				"fonts": [gFont("SetrixHD",30)],
+				"itemHeight": 45
+				}
+			</convert>
+		</widget>
+		<widget name="config" position="707,573" size="1128,408" itemHeight="54" zPosition="14" scrollbarMode="showOnDemand" transparent="1" />
+	</screen>
+	<screen name="ImageWizard" position="0,0" size="1920,1080" title="Welcome..." flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="PANEL_GIGABLUE_TOP" />
+		<ePixmap name="" position="1775,1020" size="141,60" pixmap="GigabluePax-FHD/buttons/key_exit.png" alphatest="blend" zPosition="1" />
+		<ePixmap name="" position="1655,1020" size="141,60" pixmap="GigabluePax-FHD/buttons/ok.png" alphatest="blend" zPosition="0" />
+		<ePixmap pixmap="GigabluePax-FHD/buttons/key_red.png" position="1191,1020" size="45,60" alphatest="blend" />
+		<ePixmap name="" position="1197,1020" size="600,60" pixmap="GigabluePax-FHD/construct/general/button-back.png" zPosition="-2" alphatest="blend" />
+		<ePixmap name="" position="1781,1020" size="300,60" pixmap="GigabluePax-FHD/construct/general/button-back-light.png" zPosition="-1" alphatest="blend" />
+		<eLabel text="Image Wizard" position="554,-1" size="810,69" font="SetrixHD;53" transparent="1" valign="top" zPosition="0" backgroundColor="layer-b-background" />
+		<ePixmap pixmap="GigabluePax-FHD/construct/plugins/wizard.png" position="206,434" size="300,300" alphatest="blend" />
+		<panel name="PANEL_WINDOW_LARGE" />
+		<widget name="languagetext" position="1235,1028" size="405,39" zPosition="1" font="Regular;30" halign="left" backgroundColor="layer-a-background" transparent="1" />
+		<widget name="text" position="707,113" size="1128,450" font="SetrixHD;45" backgroundColor="layer-a-background" transparent="1" />
+		<widget source="list" render="Listbox" position="707,573" size="1128,408" zPosition="13" scrollbarMode="showOnDemand" transparent="1">
+			<convert type="TemplatedMultiContent">
+				{"template": [ MultiContentEntryText(pos = (20,2),size = (760,43),flags = RT_HALIGN_LEFT,text = 0) ],
+				"fonts": [gFont("SetrixHD",30)],
+				"itemHeight": 45
+				}
+			</convert>
+		</widget>
+		<widget name="config" position="707,573" size="1128,408" itemHeight="54" zPosition="14" scrollbarMode="showOnDemand" transparent="1" />
+	</screen>
 	<screen name="NetworkWizard" position="0,0" size="1920,1080" title="Welcome..." flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="PANEL_GIGABLUE_TOP" />
 		<ePixmap name="" position="1775,1020" size="141,60" pixmap="GigabluePax-FHD/buttons/key_exit.png" alphatest="blend" zPosition="1" />
