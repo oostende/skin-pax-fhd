@@ -178,7 +178,7 @@
 			<convert type="ClockToText">Default</convert>
 		</widget>
 		<ePixmap name="menu-top" position="0,0" size="1477,80" pixmap="GigabluePax-FHD/construct/menu-top.png" alphatest="blend" zPosition="-2" />
-		<!-- /* WEATHER WIDGET 
+		<!-- /* WEATHER WIDGET --> 
 		<widget render="OMMetrixWeatherWidget" source="global.CurrentTime" position="1380,0" size="540,77" alphatest="blend" pixmap="GigabluePax-FHD/construct/general/weather-back.png" zPosition="-1"/>
 		<widget backgroundColor="layer-a-background" font="RegularLight;60" foregroundColor="layer-a-foreground" halign="right" noWrap="1" position="1436,-4" render="Label" size="72,63" source="global.CurrentTime" transparent="1" valign="top" zPosition="10">
 			<convert type="OMMetrixWeather">currentWeatherTemp</convert>
@@ -197,7 +197,7 @@
 		</widget>
 		<widget backgroundColor="layer-a-background" foregroundColor="layer-a-foreground" font="Meteo;63" halign="left" noWrap="1" position="1563,3" render="Label" size="72,72" source="global.CurrentTime" transparent="1" valign="center" zPosition="15">
 			<convert type="OMMetrixWeather">currentWeatherCode</convert>
-		</widget>	-->
+		</widget>
 		<!--	WEATHER WIDGET */ -->
 	</screen>
 	<screen name="PANEL_WINDOW_LARGE">
